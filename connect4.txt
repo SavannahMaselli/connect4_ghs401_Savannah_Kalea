@@ -1,0 +1,50 @@
+//leave these top 4 lines at the top
+        playerBlack = "Kav";  //put player1 name here
+        showText(playerBlack,70,100); //shows your name
+        GreenfootImage image1 = new GreenfootImage("black.png"); //sets image to black checker
+        String colorInitial = new String("b"); //fills the 2d array grid with this value
+        
+        
+        
+        
+        //replace the following code with your strategy
+        //but the second line shows you how to place your checker
+        
+        int colToPlace = 3;
+        placeCol(colToPlace,colorInitial,image1);
+       
+       /*
+      else{
+           int colToPlace = (int)(Math.random()*5);
+         placeCol(colToPlace,colorInitial,image1);
+        }
+        
+        String checkersAsAString = new String();
+        /*
+       for(int r = grid.length - 1; r >= 0; r--){
+            checkersAsAString = ""; //reset String for each row
+            for(int c = 0; c < grid[0].length; c++){
+                if(grid[r][c] == null)
+                    checkersAsAString+="-";//adds dash to the String if cell is empty
+                else
+                    checkersAsAString+= grid[r][c]; //adds player initial to String
+            
+                if(checkersAsAString.contains(playerRedInitial+playerRedInitial+playerRedInitial))
+                {
+                   if(grid[r][c-1] == null){
+                   int colToPlace = c-1;
+                
+                   placeCol(colToPlace,colorInitial,image1);
+                }
+                else{
+                    int colToPlace = c+1;
+                     placeCol(colToPlace,colorInitial,image1);
+                }
+                
+                }
+                
+            }
+        }
+       */
+         //plays in the specified col and fills the 2D array with the 2nd parameter String
+        
